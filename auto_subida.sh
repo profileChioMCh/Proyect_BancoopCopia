@@ -1,4 +1,4 @@
-#!/ bin/bash
+#!/bin/bash
 echo "=== Iniciando automatizacion con Git ==="
 git add .
 read -p "Introduce el mensaje para tu commit:" mensaje
