@@ -1,0 +1,6 @@
+#!/bin/bash
+if git diff --cached | grep -i "ERROR"; then
+    echo "Tienes un ERROR en el código."
+    exit 1
+fi
+
